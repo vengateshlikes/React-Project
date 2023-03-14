@@ -1,0 +1,103 @@
+.colornew{
+    
+    background-color: red;
+    height: 300px;
+    width: 200px;
+}
+
+.color{
+    background-image: linear-gradient(yellow,lightgreen,skyblue);
+    height: 500px;
+    width: 500px;
+    border-radius: 500px;
+}
+
+ .netflix{
+     margin-left: 204px;
+    margin-top: 9px;
+    PADDING: 20PX;
+}
+
+.whatesapp{
+    
+    margin-left: 307px;
+    margin-top: 2px;
+}
+
+
+.twitter{    
+        margin-left: 387px;
+    margin-top: 79px;
+}
+
+.snapchat{    
+    margin-left: 77px;
+    margin-bottom: -5px;
+}
+
+.instagram{
+    margin-left: 278px;
+    margin-top: -186px;
+}
+
+.toko{    
+       margin-left: 86px;
+    margin-top: -138px;
+}
+.telegram{    
+    margin-left: 146px;
+    margin-top: 0px;
+}
+.youtube{
+    margin-left: 210px;
+    margin-top: 37px;
+}
+.google{
+    margin-left: 250px;
+    margin-top: 34px;
+} 
+
+.para{
+    text-indent: 50px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    word-spacing: 0px; 
+    text-align: justify;
+    margin-left: 10px;
+}
+.imgme{
+    float: right;
+    margin: 0px 0px 15px 10px;
+    
+}
+
+.ullist{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.listitem{
+    
+    font-size: 30px;
+    font-weight: bold;
+    text-indent: 50px;
+    color: gray;
+    color: rgb(lightgreen, lightblue, lightyellow);
+}
+
+.directlink{
+
+    margin-right: 30px;
+    margin-top: 20px;
+    text-align: center;
+    color: blue;
+}
+
+.multiplecompany{
+    
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+    margin: 5px 5px 10px 5px;
+    
+}

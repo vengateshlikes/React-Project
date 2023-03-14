@@ -1,0 +1,183 @@
+.trans1{
+    height: 300px;
+    width: 300px;
+    border-radius: 500px;
+    background-color: lightslategray;
+    position: absolute;
+    left: 35px;
+    top: 219px;
+} 
+
+ 
+.trans11 img{
+    visibility: hidden;
+    height: 10px;
+    width: 20px;
+    border-radius: 500px;
+     position: relative;
+ 
+    left: 0px;
+     top: 0px;
+     cursor: pointer;
+     transition: width 1s, height 1s,;
+     
+}
+
+.trans1:hover .trans11 img{
+    visibility: visible;
+    height: 300px;
+    width: 300px;
+    
+
+}
+.trans2{ 
+    height: 300px;
+    width: 300px;
+    border-radius: 500px;
+    background-color: lightskyblue;
+    position: absolute;
+    left: 360px;
+    top: 219px;
+}
+
+.trans22 img{
+
+ height: 10px;
+ width: 20px;
+ border-radius: 500px;
+    position: relative;
+     left: 0px;
+     top: 0px;
+     cursor: pointer;
+     transition: width 1s, height 1s,;
+     display: none;
+}
+
+.trans2:hover .trans22 img{
+
+    height: 300px;
+    width: 300px;
+    display: block;
+    
+
+}
+.trans3{
+    
+    height: 300px;
+    width: 300px;
+    border-radius: 500px;
+    background-color: lightskyblue;
+    position: absolute;
+    left: 695px;
+    top: 219px;
+
+}
+
+
+
+.trans33 img{
+    display: none;
+ height: 10px;
+ width: 20px;
+ border-radius: 500px;
+    position: relative;
+     left: 0px;
+     top: 0px;
+     cursor: pointer;
+     transition: width 1s, height 1s,;
+     /* display: none; */
+}
+
+.trans3:hover .trans33 img{
+    
+    height: 300px;
+    width: 300px;
+    display: block;
+    
+
+}
+
+.trans4{
+    left: 1027px;
+    top: 219px;
+    height: 300px;
+    width: 300px;
+    border-radius: 500px;
+    background-color: lightskyblue;
+    position: absolute;
+}
+
+
+
+.trans44 img{
+    visibility: hidden;
+ height: 10px;
+ width: 20px;
+ border-radius: 500px;
+    position: relative;
+     left: 0px;
+     top: 0px;
+     cursor: pointer;
+     transition: width 1s, height 1s,;
+     /* display: none; */
+}
+
+.trans4:hover .trans44 img{
+    visibility: visible;
+    height: 300px;
+    width: 300px;
+    /* display: block; */
+    
+
+}
+
+.allimg
+{
+    height: 50px;    width: 300px;
+    border-radius: 200px;
+    background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    position: relative;
+    border: rgb(164, 223, 233) solid 4px;
+    top: 350px;
+    text-align: center; 
+    left: 550px;
+    padding-top: 12px;
+}
+
+.allimg:hover .trans44 img {
+    visibility: visible;
+    height: 300px;
+    width: 300px;
+    display: block;
+
+}
+
+.linelink{
+    position: absolute;
+    top: 550px;
+    height: 70px;
+    width: 1366px;
+    background-color: red;
+   
+}
+
+.linelink2:hover{
+    width: 1366px;
+}
+
+.linelink2{
+    background-color: lightgoldenrodyellow;
+    height: 70px;
+    top: 550px;
+    width: 100px;
+    color: chocolate;
+    font-weight: 800;
+    padding-top: 25px;
+    padding-left: 10px;
+    transition: width 5s;
+}
+
+
+
+
+
